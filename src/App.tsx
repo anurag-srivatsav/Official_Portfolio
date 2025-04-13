@@ -497,30 +497,43 @@ const experiences = [
 </a>
 
             </motion.div>
-            <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 1.5 }}
-              className="flex gap-4"
-            >
-              <a href="https://github.com/anurag-srivatsav" target="_blank" rel="noopener noreferrer" className="hover:text-accent-purple transition-colors">
-                <Github className="w-6 h-6" />
-              </a>
-              <a href="https://www.linkedin.com/in/anuragsrivatsav/" target="_blank" rel="noopener noreferrer" className="hover:text-accent-purple transition-colors">
-                <Linkedin className="w-6 h-6" />
-              </a>
-              
-              <a href="https://x.com/AnuragSrivatsa4" target="_blank" rel="noopener noreferrer" className="hover:text-accent-purple transition-colors">
-                <Twitter className="w-6 h-6" />
-              </a>
-              <a href="mailto:anuragsrivatsav4@gmail.com" className="hover:text-accent-purple transition-colors">
-                <Mail className="w-6 h-6" />
-              </a>
-              <span className="flex items-center gap-1 text-sm">
-                <MapPin className="w-5 h-5" />
-                India
-              </span>
-            </motion.div>
+           <motion.div
+  initial={{ opacity: 0 }}
+  animate={{ opacity: 1 }}
+  transition={{ delay: 1.5 }}
+  className="flex gap-4"
+>
+  <a href="https://github.com/anurag-srivatsav" target="_blank" rel="noopener noreferrer" className="hover:text-accent-purple transition-colors">
+    <Github className="w-6 h-6" />
+  </a>
+  <a href="https://www.linkedin.com/in/anuragsrivatsav/" target="_blank" rel="noopener noreferrer" className="hover:text-accent-purple transition-colors">
+    <Linkedin className="w-6 h-6" />
+  </a>
+  <a href="https://x.com/AnuragSrivatsa4" target="_blank" rel="noopener noreferrer" className="hover:text-accent-purple transition-colors">
+    <Twitter className="w-6 h-6" />
+  </a>
+  <a href="mailto:anuragsrivatsav4@gmail.com" className="hover:text-accent-purple transition-colors">
+    <Mail className="w-6 h-6" />
+  </a>
+  <span className="flex items-center gap-1 text-sm">
+    <MapPin className="w-5 h-5" />
+    India
+  </span>
+</motion.div>
+<div className="flex justify-center gap-6 mb-4">
+  <a href="https://aspirexai.netlify.app/" target="_blank" rel="noopener noreferrer">
+    <img src="https://res.cloudinary.com/dvlgixtg8/image/upload/v1744463987/ujnggk5uncfudcptisak.png" alt="AspireX" className="h-10" />
+  </a> 
+  <a href="https://neurodeskai.netlify.app/" target="_blank" rel="noopener noreferrer">
+    <img src="https://res.cloudinary.com/dvlgixtg8/image/upload/v1744467743/aidesktop.png" alt="NeuroDesk" className="h-10" />
+  </a>
+  <a href="https://anuragsrivatsav.netlify.app/" target="_blank" rel="noopener noreferrer">
+    <img src="https://anuragsrivatsav.netlify.app/footer.ico" alt="mywebsite" className="h-10" />
+  </a>
+  <a href="https://igita.netlify.app/home.html" target="_blank" rel="noopener noreferrer">
+    <img src="https://igita.netlify.app/iGita-logo.png" alt="iGita" className="h-10" />
+  </a>
+</div>
           </div>
           <div className="relative">
             <Player
@@ -892,6 +905,20 @@ const experiences = [
 >
   <Globe className="w-6 h-6" />
 </a>
+  <div className="flex justify-center gap-6 mb-4">
+  <a href="https://aspirexai.netlify.app/" target="_blank" rel="noopener noreferrer">
+    <img src="https://res.cloudinary.com/dvlgixtg8/image/upload/v1744463987/ujnggk5uncfudcptisak.png" alt="AspireX" className="h-10" />
+  </a>
+  <a href="https://neurodeskai.netlify.app/" target="_blank" rel="noopener noreferrer">
+    <img src="https://res.cloudinary.com/dvlgixtg8/image/upload/v1744467743/aidesktop.png" alt="NeuroDesk" className="h-10" />
+  </a>
+  <a href="https://anuragsrivatsav.netlify.app/" target="_blank" rel="noopener noreferrer">
+    <img src="https://anuragsrivatsav.netlify.app/footer.ico" alt="mywebsite" className="h-10" />
+  </a>
+  <a href="https://igita.netlify.app/home.html" target="_blank" rel="noopener noreferrer">
+    <img src="https://igita.netlify.app/iGita-logo.png" alt="iGita" className="h-10" />
+  </a>
+</div>
 </motion.div>
 
 
@@ -1265,7 +1292,22 @@ const experiences = [
       </a>
     </div>
 
-   
+    {/* Third Row - Image Icons */}
+    <div className="flex justify-center gap-6 mb-4">
+      <a href="https://aspirexai.netlify.app/" target="_blank" rel="noopener noreferrer">
+        <img src="https://res.cloudinary.com/dvlgixtg8/image/upload/v1744463987/ujnggk5uncfudcptisak.png" alt="AspireX" className="h-10" />
+      </a> 
+      <a href="https://neurodeskai.netlify.app/" target="_blank" rel="noopener noreferrer">
+        <img src="https://res.cloudinary.com/dvlgixtg8/image/upload/v1744467743/aidesktop.png" alt="NeuroDesk" className="h-10" />
+      </a>
+      <a href="https://anuragsrivatsav.netlify.app/" target="_blank" rel="noopener noreferrer">
+        <img src="https://anuragsrivatsav.netlify.app/footer.ico" alt="mywebsite" className="h-10" />
+      </a>
+       <a href="https://igita.netlify.app/home.html" target="_blank" rel="noopener noreferrer">
+        <img src="https://igita.netlify.app/iGita-logo.png" alt="iGita" className="h-10" />
+      </a>
+       
+    </div>
 
     <p className="text-sm text-gray-500 dark:text-gray-400">
       &copy; {new Date().getFullYear()} Anurag Srivastav. All rights reserved.
