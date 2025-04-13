@@ -1019,13 +1019,13 @@ const experiences = [
       >
         
         <h2 className="text-3xl md:text-4xl font-orbitron font-bold text-gray-900 dark:text-white mb-6">
-          About <span className="text-accent-purple">NeuroNex Labs</span>
+          About <span className="text-accent-purple">AspireX Labs</span>
         </h2>
         <p className="text-gray-700 dark:text-gray-300 text-lg mb-6 font-montserrat">
-          At NeuroNex Labs, we blend AI with human insight to create intelligent solutions that elevate productivity, wellness, and creativity. From personalized AI assistants to futuristic healthcare tools, we're pushing boundaries to build the next generation of meaningful tech.
+          At AspireX Labs, we blend AI with human insight to create intelligent solutions that elevate productivity, wellness, and creativity. From personalized AI assistants to futuristic healthcare tools, we're pushing boundaries to build the next generation of meaningful tech.
         </p>
         <a
-          href="https://yourcompanywebsite.com"
+          href="https://aspirexai.netlify.app/"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block px-6 py-2 bg-accent-purple text-white rounded-full text-sm hover:scale-105 transition-transform"
