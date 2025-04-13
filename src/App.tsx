@@ -71,6 +71,7 @@ function App() {
     metrics: {
       loc: '12,000+',
       tech: '7'
+    }
     },
   {
     title: 'MedVision AI',
