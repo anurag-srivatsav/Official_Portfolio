@@ -497,43 +497,82 @@ const experiences = [
 </a>
 
             </motion.div>
-           <motion.div
+          <motion.div
   initial={{ opacity: 0 }}
   animate={{ opacity: 1 }}
   transition={{ delay: 1.5 }}
-  className="flex gap-4"
+  className="flex flex-col items-center gap-6 mb-12"
 >
-  <a href="https://github.com/anurag-srivatsav" target="_blank" rel="noopener noreferrer" className="hover:text-accent-purple transition-colors">
-    <Github className="w-6 h-6" />
-  </a>
-  <a href="https://www.linkedin.com/in/anuragsrivatsav/" target="_blank" rel="noopener noreferrer" className="hover:text-accent-purple transition-colors">
-    <Linkedin className="w-6 h-6" />
-  </a>
-  <a href="https://x.com/AnuragSrivatsa4" target="_blank" rel="noopener noreferrer" className="hover:text-accent-purple transition-colors">
-    <Twitter className="w-6 h-6" />
-  </a>
-  <a href="mailto:anuragsrivatsav4@gmail.com" className="hover:text-accent-purple transition-colors">
-    <Mail className="w-6 h-6" />
-  </a>
-  <span className="flex items-center gap-1 text-sm">
-    <MapPin className="w-5 h-5" />
-    India
-  </span>
+  {/* Social Media Icons Row */}
+  <div className="flex justify-center gap-4">
+    <a
+      href="https://github.com/anurag-srivatsav"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="hover:text-accent-purple transition-colors"
+    >
+      <Github className="w-6 h-6" />
+    </a>
+    <a
+      href="https://www.linkedin.com/in/anuragsrivatsav/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="hover:text-accent-purple transition-colors"
+    >
+      <Linkedin className="w-6 h-6" />
+    </a>
+    <a
+      href="https://x.com/AnuragSrivatsa4"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="hover:text-accent-purple transition-colors"
+    >
+      <Twitter className="w-6 h-6" />
+    </a>
+    <a
+      href="mailto:anuragsrivatsav4@gmail.com"
+      className="hover:text-accent-purple transition-colors"
+    >
+      <Mail className="w-6 h-6" />
+    </a>
+    <span className="flex items-center gap-1 text-sm">
+      <MapPin className="w-5 h-5" />
+      India
+    </span>
+  </div>
+
+  {/* Project Images Row */}
+  <div className="flex flex-wrap justify-center gap-6">
+    <a href="https://aspirexai.netlify.app/" target="_blank" rel="noopener noreferrer">
+      <img
+        src="https://res.cloudinary.com/dvlgixtg8/image/upload/v1744463987/ujnggk5uncfudcptisak.png"
+        alt="AspireX"
+        className="h-10 object-contain"
+      />
+    </a>
+    <a href="https://neurodeskai.netlify.app/" target="_blank" rel="noopener noreferrer">
+      <img
+        src="https://res.cloudinary.com/dvlgixtg8/image/upload/v1744467743/aidesktop.png"
+        alt="NeuroDesk"
+        className="h-10 object-contain"
+      />
+    </a>
+    <a href="https://anuragsrivatsav.netlify.app/" target="_blank" rel="noopener noreferrer">
+      <img
+        src="https://anuragsrivatsav.netlify.app/footer.ico"
+        alt="mywebsite"
+        className="h-10 object-contain"
+      />
+    </a>
+    <a href="https://igita.netlify.app/home.html" target="_blank" rel="noopener noreferrer">
+      <img
+        src="https://igita.netlify.app/iGita-logo.png"
+        alt="iGita"
+        className="h-10 object-contain"
+      />
+    </a>
+  </div>
 </motion.div>
-<div className="flex justify-center gap-6 mb-4">
-  <a href="https://aspirexai.netlify.app/" target="_blank" rel="noopener noreferrer">
-    <img src="https://res.cloudinary.com/dvlgixtg8/image/upload/v1744463987/ujnggk5uncfudcptisak.png" alt="AspireX" className="h-10" />
-  </a> 
-  <a href="https://neurodeskai.netlify.app/" target="_blank" rel="noopener noreferrer">
-    <img src="https://res.cloudinary.com/dvlgixtg8/image/upload/v1744467743/aidesktop.png" alt="NeuroDesk" className="h-10" />
-  </a>
-  <a href="https://anuragsrivatsav.netlify.app/" target="_blank" rel="noopener noreferrer">
-    <img src="https://anuragsrivatsav.netlify.app/footer.ico" alt="mywebsite" className="h-10" />
-  </a>
-  <a href="https://igita.netlify.app/home.html" target="_blank" rel="noopener noreferrer">
-    <img src="https://igita.netlify.app/iGita-logo.png" alt="iGita" className="h-10" />
-  </a>
-</div>
           </div>
           <div className="relative">
             <Player
@@ -849,76 +888,97 @@ const experiences = [
         systems and user-friendly experiences.
       </motion.p>
 
-      {/* Social Media Links */}
+     {/* Social Media Links and Project Images */}
 <motion.div
   initial={{ opacity: 0, y: 20 }}
   animate={{ opacity: 1, y: 0 }}
   transition={{ delay: 0.6 }}
-  className="flex justify-center gap-6 mb-12"
+  className="flex flex-col items-center gap-6 mb-12"
 >
-  {/* LinkedIn */}
-  <a
-    href="https://www.linkedin.com/in/anuragsrivatsav/"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="text-accent-purple hover:text-accent-blue transition-transform transform hover:scale-110"
-  >
-    <Linkedin className="w-6 h-6" />
-  </a>
+  {/* Social Media Icons Row */}
+  <div className="flex justify-center gap-6">
+    {/* LinkedIn */}
+    <a
+      href="https://www.linkedin.com/in/anuragsrivatsav/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-accent-purple hover:text-accent-blue transition-transform transform hover:scale-110"
+    >
+      <Linkedin className="w-6 h-6" />
+    </a>
 
-  {/* GitHub */}
-  <a
-    href="https://github.com/anurag-srivatsav"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="text-accent-purple hover:text-accent-blue transition-transform transform hover:scale-110"
-  >
-    <Github className="w-6 h-6" />
-  </a>
+    {/* GitHub */}
+    <a
+      href="https://github.com/anurag-srivatsav"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-accent-purple hover:text-accent-blue transition-transform transform hover:scale-110"
+    >
+      <Github className="w-6 h-6" />
+    </a>
 
-  {/* Twitter */}
-  <a
-    href="https://x.com/AnuragSrivatsa4"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="text-accent-purple hover:text-accent-blue transition-transform transform hover:scale-110"
-  >
-    <Twitter className="w-6 h-6" />
-  </a>
+    {/* Twitter */}
+    <a
+      href="https://x.com/AnuragSrivatsa4"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-accent-purple hover:text-accent-blue transition-transform transform hover:scale-110"
+    >
+      <Twitter className="w-6 h-6" />
+    </a>
 
-  {/* Instagram */}
-  <a
-    href="https://www.instagram.com/anuragsrivatsav4/"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="text-accent-purple hover:text-accent-blue transition-transform transform hover:scale-110"
-  >
-    <Instagram className="w-6 h-6" />
-  </a>
+    {/* Instagram */}
+    <a
+      href="https://www.instagram.com/anuragsrivatsav4/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-accent-purple hover:text-accent-blue transition-transform transform hover:scale-110"
+    >
+      <Instagram className="w-6 h-6" />
+    </a>
 
-  {/* Website / Portfolio */}
-<a
-  href="https://anuragsrivatsav.netlify.app/"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="text-accent-purple hover:text-accent-blue transition-transform transform hover:scale-110"
->
-  <Globe className="w-6 h-6" />
-</a>
-  <div className="flex justify-center gap-6 mb-4">
-  <a href="https://aspirexai.netlify.app/" target="_blank" rel="noopener noreferrer">
-    <img src="https://res.cloudinary.com/dvlgixtg8/image/upload/v1744463987/ujnggk5uncfudcptisak.png" alt="AspireX" className="h-10" />
-  </a>
-  <a href="https://neurodeskai.netlify.app/" target="_blank" rel="noopener noreferrer">
-    <img src="https://res.cloudinary.com/dvlgixtg8/image/upload/v1744467743/aidesktop.png" alt="NeuroDesk" className="h-10" />
-  </a>
-  <a href="https://anuragsrivatsav.netlify.app/" target="_blank" rel="noopener noreferrer">
-    <img src="https://anuragsrivatsav.netlify.app/footer.ico" alt="mywebsite" className="h-10" />
-  </a>
-  <a href="https://igita.netlify.app/home.html" target="_blank" rel="noopener noreferrer">
-    <img src="https://igita.netlify.app/iGita-logo.png" alt="iGita" className="h-10" />
-  </a>
-</div>
+    {/* Website / Portfolio */}
+    <a
+      href="https://anuragsrivatsav.netlify.app/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-accent-purple hover:text-accent-blue transition-transform transform hover:scale-110"
+    >
+      <Globe className="w-6 h-6" />
+    </a>
+  </div>
+
+  {/* Project Images Row */}
+  <div className="flex flex-wrap justify-center gap-6">
+    <a href="https://aspirexai.netlify.app/" target="_blank" rel="noopener noreferrer">
+      <img
+        src="https://res.cloudinary.com/dvlgixtg8/image/upload/v1744463987/ujnggk5uncfudcptisak.png"
+        alt="AspireX"
+        className="h-10 object-contain"
+      />
+    </a>
+    <a href="https://neurodeskai.netlify.app/" target="_blank" rel="noopener noreferrer">
+      <img
+        src="https://res.cloudinary.com/dvlgixtg8/image/upload/v1744467743/aidesktop.png"
+        alt="NeuroDesk"
+        className="h-10 object-contain"
+      />
+    </a>
+    <a href="https://anuragsrivatsav.netlify.app/" target="_blank" rel="noopener noreferrer">
+      <img
+        src="https://anuragsrivatsav.netlify.app/footer.ico"
+        alt="mywebsite"
+        className="h-10 object-contain"
+      />
+    </a>
+    <a href="https://igita.netlify.app/home.html" target="_blank" rel="noopener noreferrer">
+      <img
+        src="https://igita.netlify.app/iGita-logo.png"
+        alt="iGita"
+        className="h-10 object-contain"
+      />
+    </a>
+  </div>
 </motion.div>
 
 
@@ -1281,15 +1341,7 @@ const experiences = [
       <a href="https://www.credential.net/profile/anuragsrivastavthammera403031/wallet#gs.f8ewcq" target="_blank" rel="noopener noreferrer">
         <img src="https://accredible_temp_credential_images.s3-external-1.amazonaws.com/167085724576703620544817900388.png?cb=1670857323460" alt="Accredible" className="h-10" />
       </a>
-      <a href="https://anuragsrivatsav.netlify.app/" target="_blank" rel="noopener noreferrer">
-        <img src="https://anuragsrivatsav.netlify.app/footer.ico" alt="mywebsite" className="h-10" />
-      </a>
-       <a href="https://igita.netlify.app/home.html" target="_blank" rel="noopener noreferrer">
-        <img src="https://igita.netlify.app/iGita-logo.png" alt="iGita" className="h-10" />
-      </a>
-       <a href="https://aspirexai.netlify.app/" target="_blank" rel="noopener noreferrer">
-        <img src="https://res.cloudinary.com/dvlgixtg8/image/upload/v1744463987/ujnggk5uncfudcptisak.png" alt="iGita" className="h-10" />
-      </a>
+      
     </div>
 
     {/* Third Row - Image Icons */}
