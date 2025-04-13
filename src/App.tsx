@@ -1256,6 +1256,9 @@ const experiences = [
        <a href="https://igita.netlify.app/home.html" target="_blank" rel="noopener noreferrer">
         <img src="https://igita.netlify.app/iGita-logo.png" alt="iGita" className="h-10" />
       </a>
+       <a href="https://aspirexai.netlify.app/" target="_blank" rel="noopener noreferrer">
+        <img src="https://res.cloudinary.com/dvlgixtg8/image/upload/v1744463987/ujnggk5uncfudcptisak.png" alt="iGita" className="h-10" />
+      </a>
     </div>
 
    
