@@ -41,7 +41,7 @@ function App() {
     title: 'Desktop AI Buddy',
     description: 'An intelligent desktop companion with voice command support, LLM-based conversations, and automated daily tasks.',
     tech: ['Python', 'PyQt5', 'LLM', 'SpeechRecognition', 'Selenium', 'Playwright'],
-    image: 'https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?auto=format&fit=crop&w=1600&q=80',
+    image: 'https://res.cloudinary.com/dvlgixtg8/image/upload/v1744571308/NeuroDesk_homePage.jpg',
     github: 'https://github.com/anurag-srivatsav/Desktop_AI',
     demo: 'https://neurodeskai.netlify.app/',
     metrics: {
@@ -49,6 +49,29 @@ function App() {
       tech: '10+'
     }
   },
+    {
+    title: 'IGITA - Devine Gods Bot',
+    description: 'iGita is the worlds first spiritual AI app blending ancient Indian Itihasas, slokas, and epics like the Ramayana into an interactive divine experience.',
+    tech: ['Python', 'RAG', 'LLM', 'Bot Framework'],
+    image: 'https://res.cloudinary.com/dvlgixtg8/image/upload/v1744571308/iGita_HomePage.jpg',
+    github: 'https://github.com/anurag-srivatsav/igita-bot',
+    demo: 'https://igita.netlify.app/home.html',
+    metrics: {
+      loc: '9,500+',
+      tech: '5'
+    }
+  },
+   {
+    title: 'SpeakTwin Voice Clone',
+    description: 'AI-powered voice cloning app using LangChain, Hugging Face, PlayHT, and Google Gen-AI for real-time speech synthesis.',
+    tech: ['Python', 'LangChain', 'Streamlit', 'PlayHT', 'Hugging Face'],
+    image: 'https://play.ht/blog/wp-content/uploads/2024/08/what-is-an-ai-voice-generator.webp',
+    github: 'https://github.com/anurag-srivatsav/speaktwin-voice-clone',
+    demo: 'https://echoclone-ai.streamlit.app/',
+    metrics: {
+      loc: '12,000+',
+      tech: '7'
+    },
   {
     title: 'MedVision AI',
     description: 'A smart medical app with ML-based image diagnosis and MedCam for real-time medicine identification.',
@@ -61,16 +84,30 @@ function App() {
       tech: '9'
     }
   },
-  {
-    title: 'SpeakTwin Voice Clone',
-    description: 'AI-powered voice cloning app using LangChain, Hugging Face, PlayHT, and Google Gen-AI for real-time speech synthesis.',
-    tech: ['Python', 'LangChain', 'Streamlit', 'PlayHT', 'Hugging Face'],
-    image: 'https://play.ht/blog/wp-content/uploads/2024/08/what-is-an-ai-voice-generator.webp',
-    github: 'https://github.com/anurag-srivatsav/speaktwin-voice-clone',
-    demo: 'https://echoclone-ai.streamlit.app/',
+  
+  },
+{
+    title: 'Interactive AI Profile Bot',
+    description: 'A chatbot that answers personalized queries about me using real-time responses and knowledge integration.',
+    tech: ['Python', 'Streamlit', 'AI Chatbot'],
+    image: 'https://anuragsrivatsav.netlify.app/SkillsPics/portfolioBot.jpg',
+    github: 'https://github.com/anurag-srivatsav/ai-profile-bot',
+    demo: 'https://anuragsportfolioassist.streamlit.app/',
     metrics: {
-      loc: '12,000+',
-      tech: '7'
+      loc: '9,000+',
+      tech: '4'
+    }
+  },
+  {
+    title: 'The Infinite Narrative',
+    description: 'Sci-fi storytelling experience exploring timelines, consciousness, and alternate realities in a web setting.',
+    tech: ['Web Development', 'Storytelling'],
+    image: 'https://anuragsrivatsav.netlify.app/storywebpage.webp',
+    github: 'https://github.com/anurag-srivatsav/the-infinite-narrative',
+    demo: 'https://mindbending.netlify.app/',
+    metrics: {
+      loc: '7,500+',
+      tech: '3'
     }
   },
   {
@@ -108,43 +145,9 @@ function App() {
       loc: '10,000+',
       tech: '6'
     }
-  },
-  {
-    title: 'Interactive AI Profile Bot',
-    description: 'A chatbot that answers personalized queries about me using real-time responses and knowledge integration.',
-    tech: ['Python', 'Streamlit', 'AI Chatbot'],
-    image: 'https://anuragsrivatsav.netlify.app/SkillsPics/portfolioBot.jpg',
-    github: 'https://github.com/anurag-srivatsav/ai-profile-bot',
-    demo: 'https://anuragsportfolioassist.streamlit.app/',
-    metrics: {
-      loc: '9,000+',
-      tech: '4'
-    }
-  },
-  {
-    title: 'The Infinite Narrative',
-    description: 'Sci-fi storytelling experience exploring timelines, consciousness, and alternate realities in a web setting.',
-    tech: ['Web Development', 'Storytelling'],
-    image: 'https://anuragsrivatsav.netlify.app/storywebpage.webp',
-    github: 'https://github.com/anurag-srivatsav/the-infinite-narrative',
-    demo: 'https://mindbending.netlify.app/',
-    metrics: {
-      loc: '7,500+',
-      tech: '3'
-    }
-  },
-  {
-    title: 'IGITA - Devine Gods Bot',
-    description: 'iGita is the worlds first spiritual AI app blending ancient Indian Itihasas, slokas, and epics like the Ramayana into an interactive divine experience.',
-    tech: ['Python', 'RAG', 'LLM', 'Bot Framework'],
-    image: 'https://res.cloudinary.com/dvlgixtg8/image/upload/v1739350177/iGita-logo.png',
-    github: 'https://github.com/anurag-srivatsav/igita-bot',
-    demo: 'https://igita.netlify.app/home.html',
-    metrics: {
-      loc: '9,500+',
-      tech: '5'
-    }
   }
+  
+ 
 ];
 
   const ProjectsCarousel = ({ projects }) => {
@@ -1055,14 +1058,14 @@ const experiences = [
         title: 'NeuroDesk : Meet Your Ultimate Desktop AI Personal Assistant',
         desc: 'An intelligent desktop companion with voice command support, LLM-based conversations, and automated daily tasks.',
         stats: { downloads: '75+', users: '90+', stars: '4.0★' },
-        img: 'https://theacademic.com/wp-content/uploads/2024/10/312_article_pic.png',
+        img: 'https://res.cloudinary.com/dvlgixtg8/image/upload/v1744571308/NeuroDesk_homePage.jpg',
         link: 'https://neurodeskai.netlify.app/',
       },
       {
         title: 'IGITA - Divine Gods AI',
         desc: 'The world\'s first spiritual AI app blending ancient Indian Itihasas, slokas, and epics like the Ramayana into an immersive experience.',
         stats: { downloads: '51+', users: '120+', stars: '4.1★' },
-        img: 'https://www.securities.io/wp-content/uploads/2024/03/DALL%C2%B7E-2024-03-21-09.08.33-A-highly-detailed-and-realistic-image-showing-an-advanced-robot-seated-at-a-modern-sleek-desk-surrounded-by-multiple-screens-displaying-complex-algor.webp',
+        img: 'https://res.cloudinary.com/dvlgixtg8/image/upload/v1744571308/iGita_HomePage.jpg',
         link: 'https://igita.netlify.app/home.html',
       },
       {
