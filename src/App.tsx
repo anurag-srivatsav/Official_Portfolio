@@ -86,7 +86,7 @@ function App() {
     }
   },
   
-  },
+  
 {
     title: 'Interactive AI Profile Bot',
     description: 'A chatbot that answers personalized queries about me using real-time responses and knowledge integration.',
