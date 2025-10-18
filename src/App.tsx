@@ -383,7 +383,7 @@ const experiences = [
   {
     icon: Eye,
     title: 'AI ML Project with IIT Hyderabad & LV Prasad Eye Institute',
-    date: 'July 2024 - December 2024',
+    date: 'July 2024 - December 2025',
     points: [
       'Developed AI tele-ophthalmology solution for vision correction and accessibility.',
       'Created deep learning models for eye tracking and remote vision care delivery.'
@@ -421,10 +421,10 @@ const experiences = [
 
 
   const metrics = [
-    { icon: Coffee, label: 'Coffee Consumed', value: '2,009+ cups' },
-    { icon: Code, label: 'Lines of Code', value: '27,400+' },
-    { icon: Brain, label: 'AI Agents Built', value: '25+' },
-    { icon: Tool, label: 'Stories created', value: '50+' }
+    { icon: Coffee, label: 'Coffee Consumed', value: '5,012+ cups' },
+    { icon: Code, label: 'Lines of Code', value: '47,400+' },
+    { icon: Brain, label: 'AI Agents Built', value: '32+' },
+    { icon: Tool, label: 'Stories created', value: '56+' }
   ];
 
   return (
