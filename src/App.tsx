@@ -467,7 +467,7 @@ const experiences = [
               transition={{ delay: 0.6 }}
               className="text-xl md:text-2xl font-montserrat text-accent-purple mb-6"
             >
-              AI Developer & Frontend Engineer
+              AI Consultant-Freelancer-Agentic AI Engineer
             </motion.div>
             <motion.p
               initial={{ opacity: 0 }}
@@ -830,7 +830,7 @@ const experiences = [
         transition={{ delay: 0.4 }}
         className="text-lg text-gray-600 dark:text-gray-300 mb-12"
       >
-        I'm a passionate AI Developer and Frontend Engineer focused on building intelligent
+        I'm a passionate AI Consultant-Freelancer-Agentic AI Engineer focused on building intelligent
         solutions with beautiful, intuitive interfaces. I bridge the gap between complex AI
         systems and user-friendly experiences.
       </motion.p>
@@ -938,7 +938,7 @@ const experiences = [
             icon: Brain,
           },
           {
-            title: 'Frontend Engineering',
+            title: 'FullStack Engineering',
             description: 'Building beautiful user interfaces',
             icon: Code,
           },
